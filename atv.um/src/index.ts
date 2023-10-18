@@ -1,4 +1,3 @@
-
 import { PessoaFisica } from "./model/PessoaFisica";
 import { PessoaJuridica } from "./model/PessoaJuridica";
 

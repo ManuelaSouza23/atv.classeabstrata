@@ -12,6 +12,6 @@ export abstract class Pessoa{
     public getNome():string{
         return this.nome;
     }
-
-    public abstract documentoIdentificador():string;
+    
+    public abstract documentoIdentificador(): string;
 }

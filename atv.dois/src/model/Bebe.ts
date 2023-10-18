@@ -23,6 +23,19 @@ export abstract class Bebe{
         return this.nome;
     }
 
+    public setPeso(_peso:number):void{
+        this.peso= _peso;
+    }
 
-    public abstract documentoIdentificador():string;
+    public getPeso():number{
+        return this.peso;
+    }
+
+    public setAltura(_altura:number):void{
+        this.altura= _altura;
+    }
+
+    public getAltura():number{
+        return this.altura;
+    }
 }
